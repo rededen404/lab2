@@ -19,7 +19,7 @@ int main(){
 		Unit *army[4];
 		army[0]=new AirUnit(100,5000,5000);
 		army[1]=new LandUnit(150,500,20);
-		army[2]=new SeaUnit(200,2000,10000);
+		army[2]=new SeaUnit(200,2000,666);
 		army[3]=new SUnit(500);
 		for(int i=0;i<4;i++){
 			army[i]->attack();
